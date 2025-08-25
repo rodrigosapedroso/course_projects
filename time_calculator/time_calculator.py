@@ -27,6 +27,27 @@ def add_time(start, duration):
         elif start_hour + duration_hour == 24:
             new_hour = 12
             new_period = start_period
+        elif start_hour + duration_hour > 24:
+            days_later = (start_hour + duration_hour)//24
+            new_hour_24 = (start_hour + duration_hour)%24
+            if new_hour_24 == 0:
+                new_hour = 12
+                new_period = start_period
+            elif new_hour_24 < 12:
+                new_hour = new_hour_24
+                new_period = start_period
+            elif new_hour_24 == 12:
+                new_hour = new_hour_24
+                if start_period == 'PM':
+                    new_period = 'AM'
+                elif start_period == 'AM':
+                    new_period = 'PM'
+            elif new_hour_24 > 12:
+                new_hour = new_hour_24 - 12
+                if start_period == 'PM':
+                    new_period = 'AM'
+                elif start_period == 'AM':
+                    new_period = 'PM'
     else: 
         new_minute = duration_minute - (60-start_minute)
         if start_hour + duration_hour < 12:
@@ -41,12 +62,36 @@ def add_time(start, duration):
         elif start_hour + duration_hour == 24:
             new_hour = 1
             new_period = start_period
+        elif start_hour + duration_hour > 24:
+            days_later = (start_hour + duration_hour)//24
+            new_hour_24 = (start_hour + duration_hour)%24
+            if new_hour_24 == 0:
+                new_hour = 12
+                new_period = start_period
+            elif new_hour_24 < 12:
+                new_hour = new_hour_24
+                new_period = start_period
+            elif new_hour_24 == 12:
+                new_hour = new_hour_24
+                if start_period == 'PM':
+                    new_period = 'AM'
+                elif start_period == 'AM':
+                    new_period = 'PM'
+            elif new_hour_24 > 12:
+                new_hour = new_hour_24 - 12
+                if start_period == 'PM':
+                    new_period = 'AM'
+                elif start_period == 'AM':
+                    new_period = 'PM'
 
     if new_minute < 10:
         new_minute = '0'+str(new_minute)
 
     new_time = str(new_hour)+':'+str(new_minute)+' '+new_period
 
+    if (start_hour + duration_hour >= 24 and start_period == 'AM') or (start_hour + duration_hour >= 12 and start_period == 'PM'):
+        new_time +=' (next day)'
+
     return(new_time)
 
-print(add_time('11:30 AM', '2:32'))
+print(add_time('2:59 AM', '24:00'))
