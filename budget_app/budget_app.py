@@ -31,13 +31,40 @@ class Category:
         else:
             return False
 
+    def check_funds(self,amount):
+        balance = 0
+        for i in self.ledger:
+            balance += i['amount']
+        if amount > balance:
+            return False
+        else:
+            return True
+
+    def __str__(self):
+        asterisk = ''
+        for i in range((30-len(self.name))//2):
+            asterisk += '*'
+        title = asterisk+self.name+asterisk
+        summary = ''
+        sum = 0
+        for i in self.ledger:
+            amount = i['amount']
+            description = i['description'][0:23]
+            transfer_line = description+(' ')*(30-len(f'{amount:.2f}'+description))+f'{amount:.2f}'
+            summary += transfer_line+'\n'
+            sum += i['amount'] 
+        total_line = 'Total: '+str(sum)
+        table = title+'\n'+summary+total_line
+        return table
 
 food = Category('Food')
+food.deposit(1000,'deposit')
+food.withdraw(10.15, 'groceries')
+food.withdraw(15.89, 'restaurant and more food for dessert')
 clothing = Category('Clothing')
-food.deposit(900,'deposit')
-food.withdraw(45.67, 'milk, cereal, eggs, bacon, bread')
 food.transfer(50,clothing)
 
 print(food.ledger, '\n')
 print(food.get_balance(),'\n')
-print(clothing.ledger)
+print(clothing.ledger,'\n')
+print(food)
