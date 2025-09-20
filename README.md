@@ -14,6 +14,9 @@ A centralized collection of all my Python programming projects and solutions fro
 * **2. Time Calculator**
     * A program designed to add a specific duration to a given start time. It handles various scenarios, including crossing midnight, calculating the number of days later, and displaying the day of the week for the new time.
 
+* **3. Budget App**
+    * A program that helps manage personal finances by creating budget categories, tracking deposits and withdrawals, transferring funds between categories, and visualizing spending with a text-based bar chart showing percentages spent per category.
+
 ---
 
 ## How to Run the Solutions
