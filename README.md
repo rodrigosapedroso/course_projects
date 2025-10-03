@@ -17,6 +17,9 @@ A centralized collection of all my Python programming projects and solutions fro
 * **3. Budget App**
     * A program that helps manage personal finances by creating budget categories, tracking deposits and withdrawals, transferring funds between categories, and visualizing spending with a text-based bar chart showing percentages spent per category.
 
+* **4. Polygon Area Calculator**
+    * A program that defines Rectangle and Square classes, allowing calculation of area, perimeter, diagonal, and visual representation. It also includes methods to adjust dimensions, compare sizes, and determine how many times one shape can fit inside another.
+
 ---
 
 ## How to Run the Solutions
