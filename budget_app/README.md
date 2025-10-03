@@ -1,6 +1,7 @@
 # Budget App
 
-This is the third project from the **Scientific Computing with Python** course on freeCodeCamp.  
+This is the third project from the **Scientific Computing with Python** course on freeCodeCamp. 
+This is my first project where I applied Object-Oriented Programming (OOP) concepts in practice. 
 
 The program allows users to create budget categories, deposit and withdraw money, transfer funds between categories, and visualize spending with a text-based bar chart.
 
