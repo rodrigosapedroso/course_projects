@@ -13,11 +13,14 @@ class Hat:
     
     def draw(self, number):
         if number > len(self.contents):
-            return self.contents
-        drawback = random.sample(self.contents, number)
-        for i in drawback:
-            self.contents.remove(i)
-        return drawback          
+            all = self.contents.copy()
+            self.contents = []
+            return all
+        else:
+            drawback = random.sample(self.contents, number)
+            for i in drawback:
+                self.contents.remove(i)
+            return drawback             
 
 
 hat1 = Hat(red=2, blue=1)
