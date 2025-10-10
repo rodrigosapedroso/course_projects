@@ -20,6 +20,9 @@ A centralized collection of all my Python programming projects and solutions fro
 * **4. Polygon Area Calculator**
     * A program that defines Rectangle and Square classes, allowing calculation of area, perimeter, diagonal, and visual representation. It also includes methods to adjust dimensions, compare sizes, and determine how many times one shape can fit inside another.
 
+* **5. Probability Calculator**    
+    * This project lets you create a hat with colored balls and draw a number of balls at random using the Hat class. The experiment function then estimates the chance of getting a specific combination by running multiple experiments. 
+
 ---
 
 ## How to Run the Solutions
