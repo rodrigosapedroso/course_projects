@@ -16,16 +16,3 @@ arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True)
 -----    ------    ----    -----
   730      3799      88      172
 ```
-## How to Run
-
-**Clone this repository:**
-git clone https://github.com/rodrigosapedroso/course_projects.git
-
-**Navigate to the project folder:**
-cd course_projects/arithmetic_formatter
-
-**Run the Python script:**
-python arithmetic_formatter.py
-
-## Author
-Rodrigo Pedroso

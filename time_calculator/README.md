@@ -19,16 +19,3 @@ add_time("11:59 PM", "24:00", "Wednesday")
 6:10 PM
 11:59 PM, Friday (2 days later)
 ```
-## How to Run
-
-**Clone this repository:**
-git clone https://github.com/rodrigosapedroso/course_projects.git
-
-**Navigate to the project folder:**
-cd course_projects/time_calculator
-
-**Run the Python script:**
-python time_calculator.py
-
-## Author
-Rodrigo Pedroso

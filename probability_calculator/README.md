@@ -23,16 +23,3 @@ print(probability)
 ```
 0.31
 ```
-## How to Run
-
-**Clone this repository:**
-git clone https://github.com/rodrigosapedroso/course_projects.git
-
-**Navigate to the project folder:**
-cd course_projects/probability_calculator
-
-**Run the Python script:**
-python probability_calculator.py
-
-## Author
-Rodrigo Pedroso

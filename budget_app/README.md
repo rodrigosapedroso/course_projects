@@ -50,16 +50,3 @@ Percentage spent by category
         n
         g
 ```
-## How to Run
-
-**Clone this repository:**
-git clone https://github.com/rodrigosapedroso/course_projects.git
-
-**Navigate to the project folder:**
-cd course_projects/budget_app
-
-**Run the Python script:**
-python budget_app.py
-
-## Author
-Rodrigo Pedroso

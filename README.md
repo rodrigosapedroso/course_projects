@@ -8,6 +8,8 @@ A centralized collection of all my Python programming projects and solutions fro
 
 ### Scientific Computing
 
+**[Certification](https://www.freecodecamp.org/certification/rodrigosapedroso/scientific-computing-with-python-v7)**  
+
 * **1. Arithmetic Formatter**
     * A program that arranges and solves arithmetic problems vertically, aligning numbers and operators for readability and accuracy, similar to how one might do it by hand.
 
@@ -22,30 +24,3 @@ A centralized collection of all my Python programming projects and solutions fro
 
 * **5. Probability Calculator**    
     * This project lets you create a hat with colored balls and draw a number of balls at random using the Hat class. The experiment function then estimates the chance of getting a specific combination by running multiple experiments. 
-
----
-
-## How to Run the Solutions
-
-To run any of the projects, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/rodrigosapedroso/course_projects.git](https://github.com/rodrigosapedroso/course_projects.git)
-    ```
-
-2.  **Navigate to the project folder:**
-    ```bash
-    cd course_projects/project_name
-    ```
-
-3.  **Run the Python script:**
-    ```bash
-    python project_name.py
-    ```
-
----
-
-## Author
-
--   **[Rodrigo Pedroso](https://github.com/rodrigosapedroso)**

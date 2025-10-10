@@ -49,16 +49,3 @@ Square(side=4)
 
 8
 ```
-## How to Run
-
-**Clone this repository:**
-git clone https://github.com/rodrigosapedroso/course_projects.git
-
-**Navigate to the project folder:**
-cd course_projects/polygon_area_calculator
-
-**Run the Python script:**
-python polygon_area_calculator.py
-
-## Author
-Rodrigo Pedroso
