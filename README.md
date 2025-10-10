@@ -1,12 +1,12 @@
 # Course Projects
 
-A centralized collection of all my Python programming projects and solutions from various online courses. The projects are organized by course or topic, showcasing my progress and skills in different areas of software development.
+A collection of all my Python programming projects and solutions from online courses, showcasing my progress and skills in different areas of software development.
 
 ---
 
 ## Completed Projects
 
-### Scientific Computing
+### Scientific Computing with Python Course
 
 **[Certification](https://www.freecodecamp.org/certification/rodrigosapedroso/scientific-computing-with-python-v7)**  
 
