@@ -1,6 +1,6 @@
 # Course Projects
 
-A collection of all my Python programming projects and solutions from online courses, showcasing my progress and skills in different areas of software development.
+A collection of all my programming projects and solutions from online courses, showcasing my progress and skills in different areas of software development.
 
 ---
 
