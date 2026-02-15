@@ -2,8 +2,6 @@
 
 A collection of all my programming projects and solutions from online courses, showcasing my progress and skills in different areas of software development.
 
----
-
 ## Completed Projects
 
 ### Scientific Computing with Python Course
